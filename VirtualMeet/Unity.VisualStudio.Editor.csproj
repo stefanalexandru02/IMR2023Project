@@ -361,6 +361,9 @@
      <Reference Include="nunit.framework">
      <HintPath>/Users/stefanalexandru/Desktop/UAIC/IMR2023Project/VirtualMeet/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>/Users/stefanalexandru/Desktop/UAIC/IMR2023Project/VirtualMeet/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
      </Reference>
@@ -752,13 +755,13 @@
       <Project>{9005be3b-85d7-d6a8-0a54-f73e84605bfc}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{17f4ea6d-2448-891f-a3ca-e324e17a2d38}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{65f4cb6f-d173-f64e-39e7-c7139f5aa69f}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{17f4ea6d-2448-891f-a3ca-e324e17a2d38}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
