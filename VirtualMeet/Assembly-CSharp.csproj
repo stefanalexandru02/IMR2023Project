@@ -62,7 +62,7 @@
     <Compile Include="Assets\ImportedAssets\CityPeopleLite\Demo_Scenes\Scripts\CityPeople.cs" />
     <Compile Include="Assets\Networking\ClientNetworkTransform.cs" />
     <Compile Include="Assets\Networking\AutoNetworkManager.cs" />
-    <Compile Include="Assets\PlayerNetwork.cs" />
+    <Compile Include="Assets\Player\PlayerNetwork.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
