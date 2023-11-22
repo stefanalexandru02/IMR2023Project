@@ -15,6 +15,8 @@ public class AutoNetworkManager : NetworkManager
         else
         {
             Debug.Log(SystemInfo.graphicsDeviceName);
+            Debug.Log("Starting client");
+            Singleton.StartClient();
         }
     }
 }

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638362698333958606
-    m_Hash: 2850511068
+      ticks: 638362819268250785
+    m_Hash: 3994742886
   m_LockFileStatus:
     m_FilePath: C:/Users/stefa/Desktop/IMR2023Project/VirtualMeet/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638362698674103496
-    m_Hash: 713900517
+      ticks: 638362819268260810
+    m_Hash: 2319225248
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
