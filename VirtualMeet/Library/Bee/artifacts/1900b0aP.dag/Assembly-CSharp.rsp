@@ -333,7 +333,7 @@
 "Assets/ImportedAssets/CityPeopleLite/Demo_Scenes/Scripts/CityPeople.cs"
 "Assets/Networking/AutoNetworkManager.cs"
 "Assets/Networking/ClientNetworkTransform.cs"
-"Assets/PlayerNetwork.cs"
+"Assets/Player/PlayerNetwork.cs"
 -langversion:9.0
 
 /deterministic
