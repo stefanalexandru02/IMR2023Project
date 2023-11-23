@@ -65,7 +65,7 @@
     <Compile Include="Assets\Player\PlayerNetwork.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ImportedAssets\Zololgo\Old urban brick texture\Shaders\DisplacementStandardSpecular.shader" />
+    <None Include="Assets\Shaders\DisplacementStandardSpecular.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

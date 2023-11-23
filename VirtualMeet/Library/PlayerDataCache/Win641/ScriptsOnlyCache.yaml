@@ -14,13 +14,6 @@ ScriptsOnlyBuild:
     - Unity.Netcode.Transports.UTP.UnityTransport
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -71,6 +64,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -100,17 +95,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 4474}
     - Class: 114
-      Script: {instanceID: 4478}
+      Script: {instanceID: 5374}
     - Class: 114
-      Script: {instanceID: 5378}
+      Script: {instanceID: 5658}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 6304}
     - Class: 114
-      Script: {instanceID: 6308}
+      Script: {instanceID: 7760}
     - Class: 114
-      Script: {instanceID: 7764}
+      Script: {instanceID: 10236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -286,12 +281,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 8c2d3958e4682b83979137b6997fc591
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerNetwork
   - hash:
       serializedVersion: 2
       Hash: a0e0bc431a5a05794fcf44452b3eb06a
@@ -1054,6 +1043,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8af953ead90899efa85f5a6f94bbf28a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerNetwork
   platform: 19
   scenePathNames:
   - Assets/Scenes/LobbyScene.unity

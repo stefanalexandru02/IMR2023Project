@@ -25,6 +25,8 @@ public class PlayerNetwork : NetworkBehaviour
     
     void Update()
     {
+        // Movement should be relative to rotation. And rotation should be relative to player position
+        
         if(!IsOwner) return;
         
         // Mouse movement
@@ -33,7 +35,7 @@ public class PlayerNetwork : NetworkBehaviour
         yRotation += mouseX;
         yRotation = Mathf.Clamp(yRotation, -45f, 45f);
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -25f, 60f);
+        xRotation = Mathf.Clamp(xRotation, -20f, 20f);
         
         // here are for both axis, but in the PlayerNetwork you should have only Y i think. No UP/DOWN rotation. That is on camera only
         // transform.rotation = Quaternion.Euler(xRotation, yRotation, 0); // this is for camera -> don't propagate
@@ -48,6 +50,13 @@ public class PlayerNetwork : NetworkBehaviour
         if (Input.GetKey(KeyCode.S)) moveDir.z = -1f;
         if (Input.GetKey(KeyCode.A)) moveDir.x = -1f;
         if (Input.GetKey(KeyCode.D)) moveDir.x = +1f;
+
+        if(moveDir.z > 0)
+            moveDir.x += 0.02f * yRotation;
+        else if(moveDir.z < 0)
+            moveDir.x -= 0.02f * yRotation;
+
+        Debug.Log($"yRotation: {yRotation}");
 
         if (moveDir == Vector3.zero)
             animator.SetBool("IsWalking", false);
