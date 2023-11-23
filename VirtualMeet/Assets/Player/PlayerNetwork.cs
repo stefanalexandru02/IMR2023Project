@@ -23,7 +23,7 @@ public class PlayerNetwork : NetworkBehaviour
         Cursor.visible = false;
     }
     
-    void Update()
+    void FixedUpdate()
     {
         if(!IsOwner) return;
         
