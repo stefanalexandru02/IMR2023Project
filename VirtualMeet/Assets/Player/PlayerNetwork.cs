@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
@@ -10,8 +11,6 @@ public class PlayerNetwork : NetworkBehaviour
     public float sensitivityX;
     public float sensitivityY;
 
-    public Transform orientation;
-    
     private float xRotation;
     private float yRotation;
     
@@ -32,12 +31,15 @@ public class PlayerNetwork : NetworkBehaviour
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensitivityX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensitivityY;
         yRotation += mouseX;
+        yRotation = Mathf.Clamp(yRotation, -45f, 45f);
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, -25f, 60f);
         
         // here are for both axis, but in the PlayerNetwork you should have only Y i think. No UP/DOWN rotation. That is on camera only
         // transform.rotation = Quaternion.Euler(xRotation, yRotation, 0); // this is for camera -> don't propagate
         // orientation.rotation = Quaternion.Euler(0, yRotation, 0); // this is for player rotation -> it needs to be propagated
+        
+        cameraPos.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         transform.rotation = Quaternion.Euler(0, yRotation, 0);
         
         // Keyboard movement
