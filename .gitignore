@@ -7,6 +7,7 @@ VirtualMeet/Library/StateCache/
 VirtualMeet/Library/BurstCache/
 VirtualMeet/Library/PlayerDataCache/
 VirtualMeet/Library/Bee/CachedNodeOutput/
+VirtualMeet/Library/Artifacts
 .DS_Store
 Build/
 **/obj/*
