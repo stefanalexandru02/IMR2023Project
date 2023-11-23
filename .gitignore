@@ -9,4 +9,5 @@ VirtualMeet/Library/PlayerDataCache/
 VirtualMeet/Library/Bee/CachedNodeOutput/
 .DS_Store
 Build/
+BuildClient/
 **/obj/*
