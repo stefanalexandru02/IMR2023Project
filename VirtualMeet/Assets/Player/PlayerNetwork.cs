@@ -25,15 +25,13 @@ public class PlayerNetwork : NetworkBehaviour
     
     void Update()
     {
-        // Movement should be relative to rotation. And rotation should be relative to player position
-        
         if(!IsOwner) return;
         
         // Mouse movement
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensitivityX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensitivityY;
         yRotation += mouseX;
-        yRotation = Mathf.Clamp(yRotation, -45f, 45f);
+        // yRotation = Mathf.Clamp(yRotation, -45f, 45f);
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -20f, 20f);
         
@@ -51,10 +49,12 @@ public class PlayerNetwork : NetworkBehaviour
         if (Input.GetKey(KeyCode.A)) moveDir.x = -1f;
         if (Input.GetKey(KeyCode.D)) moveDir.x = +1f;
 
-        if(moveDir.z > 0)
-            moveDir.x += 0.02f * yRotation;
-        else if(moveDir.z < 0)
-            moveDir.x -= 0.02f * yRotation;
+        // if(moveDir.z > 0)
+        //     moveDir.x += 0.02f * yRotation;
+        // else if(moveDir.z < 0)
+        //     moveDir.x -= 0.02f * yRotation;
+
+        moveDir = Quaternion.AngleAxis(yRotation, Vector3.up) * moveDir;
 
         Debug.Log($"yRotation: {yRotation}");
 
