@@ -1,5 +1,11 @@
 VirtualMeet/Logs/
 VirtualMeet/Temp/
 VirtualMeet/Library/PackageCache/
+VirtualMeet/Library/ShaderCache/
+VirtualMeet/Library/SlpashScreenCache/
+VirtualMeet/Library/StateCache/
+VirtualMeet/Library/BurstCache/
+VirtualMeet/Library/PlayerDataCache/
 .DS_Store
 Build/
+**/obj/*
