@@ -23,8 +23,9 @@ public class PlayerNetwork : NetworkBehaviour
         Cursor.visible = false;
     }
     
-    void Update()
+    void FixedUpdate()
     {
+        bool shouldMoveMouse = Cursor.lockState == CursorLockMode.Locked;
         if(!IsOwner) return;
         
         // Mouse movement
@@ -38,9 +39,12 @@ public class PlayerNetwork : NetworkBehaviour
         // here are for both axis, but in the PlayerNetwork you should have only Y i think. No UP/DOWN rotation. That is on camera only
         // transform.rotation = Quaternion.Euler(xRotation, yRotation, 0); // this is for camera -> don't propagate
         // orientation.rotation = Quaternion.Euler(0, yRotation, 0); // this is for player rotation -> it needs to be propagated
-        
-        cameraPos.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        transform.rotation = Quaternion.Euler(0, yRotation, 0);
+
+        if (shouldMoveMouse)
+        {
+            cameraPos.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+            transform.rotation = Quaternion.Euler(0, yRotation, 0);
+        }
         
         // Keyboard movement
         Vector3 moveDir = new Vector3(0, 0, 0);
@@ -48,6 +52,20 @@ public class PlayerNetwork : NetworkBehaviour
         if (Input.GetKey(KeyCode.S)) moveDir.z = -1f;
         if (Input.GetKey(KeyCode.A)) moveDir.x = -1f;
         if (Input.GetKey(KeyCode.D)) moveDir.x = +1f;
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            if (Cursor.lockState == CursorLockMode.Locked)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+        }
 
         // if(moveDir.z > 0)
         //     moveDir.x += 0.02f * yRotation;

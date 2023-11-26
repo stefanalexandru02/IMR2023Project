@@ -41,27 +41,27 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/Messaging" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/Serialization" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/Physics" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/Components" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/NetworkObject" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/Profiling" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/NetworkTransform" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/Timing" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/Metrics" />
-     <None Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/com.unity.netcode.runtimetests.asmdef" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/Transports" />
-     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.6.0/Tests/Runtime/TestHelpers" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/Messaging" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/Serialization" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/Physics" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/Components" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/NetworkObject" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/Profiling" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/NetworkTransform" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/Timing" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/Metrics" />
+     <None Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/com.unity.netcode.runtimetests.asmdef" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/Transports" />
+     <Folder Include="Library/PackageCache/com.unity.netcode.gameobjects@1.7.0/Tests/Runtime/TestHelpers" />
      <Reference Include="UnityEngine">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

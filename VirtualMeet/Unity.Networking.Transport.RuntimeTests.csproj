@@ -41,17 +41,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Library/PackageCache/com.unity.transport@1.3.4/Tests/Runtime/Utilities" />
-     <None Include="Library/PackageCache/com.unity.transport@1.3.4/Tests/Runtime/Unity.Networking.Transport.RuntimeTests.asmdef" />
-     <Folder Include="Library/PackageCache/com.unity.transport@1.3.4/Tests/Runtime" />
+     <Folder Include="Library/PackageCache/com.unity.transport@1.4.0/Tests/Runtime/Utilities" />
+     <None Include="Library/PackageCache/com.unity.transport@1.4.0/Tests/Runtime/Unity.Networking.Transport.RuntimeTests.asmdef" />
+     <Folder Include="Library/PackageCache/com.unity.transport@1.4.0/Tests/Runtime" />
      <Reference Include="UnityEngine">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
