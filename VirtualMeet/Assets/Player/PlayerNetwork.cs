@@ -53,7 +53,7 @@ public class PlayerNetwork : NetworkBehaviour
         if (Input.GetKey(KeyCode.A)) moveDir.x = -1f;
         if (Input.GetKey(KeyCode.D)) moveDir.x = +1f;
 
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Q))
         {
             if (Cursor.lockState == CursorLockMode.Locked)
             {
