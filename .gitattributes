@@ -4,3 +4,5 @@ VirtualMeet/Library/Artifacts/c1/c152903d9199cac414258e1920fe61bc filter=lfs dif
 c152903d9199cac414258e1920fe61bc filter=lfs diff=lfs merge=lfs -text
 VirtualMeet/Library/Artifacts/fa/fa9f53e09312f56513666b3c8a05a16c filter=lfs diff=lfs merge=lfs -text
 VirtualMeet/Library/Artifacts/91/917e40e89eea12d9ed9d3497c3403990 filter=lfs diff=lfs merge=lfs -text
+VirtualMeet/Library/ArtifactDB/* filter=lfs diff=lfs merge=lfs -text
+*.resS filter=lfs diff=lfs merge=lfs -text

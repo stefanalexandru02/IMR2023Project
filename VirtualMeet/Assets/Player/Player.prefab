@@ -1228,6 +1228,7 @@ GameObject:
   - component: {fileID: 256980463805704137}
   - component: {fileID: 1516045988726664943}
   - component: {fileID: 3045053305486199787}
+  - component: {fileID: 7525235534431197645}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1289,7 +1290,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensitivityX: 400
   sensitivityY: 400
-  orientation: {fileID: 164666740274941812}
   animator: {fileID: 256980463805704137}
   cameraPos: {fileID: 4307866468572782430}
 --- !u!114 &942204767860402208
@@ -1384,6 +1384,28 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &7525235534431197645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269440231148209276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &8759874753468560077
 GameObject:
   m_ObjectHideFlags: 0

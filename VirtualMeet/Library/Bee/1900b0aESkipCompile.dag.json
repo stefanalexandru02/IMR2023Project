@@ -27,8 +27,8 @@
       "DisplayName": "Writing 6097564273297756792.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 7481,
-      "PayloadDebugContentSnippet": "-a=\"C:\\Users\\Mihai\\Desktop\\Pro",
+      "PayloadLength": 8103,
+      "PayloadDebugContentSnippet": "-a=\"C:\\Users\\stefa\\Desktop\\IMR",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
@@ -38,11 +38,20 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"A:/Unity/2022.3.14f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" @\"Library\\Bee\\artifacts\\rsp\\6097564273297756792.rsp\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" @\"Library\\Bee\\artifacts\\rsp\\6097564273297756792.rsp\"",
       "Inputs": [
-        "A:/Unity/2022.3.14f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
-        "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
+        "Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/PhotonChat.dll",
+        "Library/ScriptAssemblies/PhotonRealtime.dll",
+        "Library/ScriptAssemblies/PhotonUnityNetworking.dll",
+        "Library/ScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
+        "Library/ScriptAssemblies/PhotonVoice.API.dll",
+        "Library/ScriptAssemblies/PhotonVoice.dll",
+        "Library/ScriptAssemblies/PhotonVoice.PUN.dll",
         "Library/ScriptAssemblies/Unity.Burst.dll",
         "Library/ScriptAssemblies/Unity.Collections.dll",
         "Library/ScriptAssemblies/Unity.Mathematics.dll",
@@ -115,106 +124,106 @@
   ],
   "FileSignatures": [
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
     },
     {
-      "File": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
     },
     {
       "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
@@ -226,6 +235,12 @@
     },
     {
       "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+    },
+    {
+      "File": "Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
     },
     {
       "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
@@ -274,6 +289,27 @@
     },
     {
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/PhotonChat.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/PhotonRealtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/PhotonUnityNetworking.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/PhotonUnityNetworking.Utilities.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/PhotonVoice.API.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/PhotonVoice.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/PhotonVoice.PUN.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Burst.dll"
@@ -362,7 +398,7 @@
   ],
   "GlobSignatures": [
     {
-      "Path": "A:/Unity/2022.3.14f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline"
     }
   ],
   "ContentDigestExtensions": [
@@ -392,6 +428,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aESkipCompile.dag.json",
-  "PayloadsFile": "C:/Users/Mihai/Desktop/Proiect IMR/IMR2023Project/VirtualMeet/Library/Bee/1900b0aESkipCompile.dag.payloads",
+  "PayloadsFile": "C:/Users/stefa/Desktop/IMR2023Project/VirtualMeet/Library/Bee/1900b0aESkipCompile.dag.payloads",
   "RelativePathToRoot": "../.."
 }

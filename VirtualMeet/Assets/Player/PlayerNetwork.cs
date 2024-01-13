@@ -23,7 +23,7 @@ public class PlayerNetwork : NetworkBehaviour
         Cursor.visible = false;
     }
     
-    void FixedUpdate()
+    void LateUpdate()
     {
         bool shouldMoveMouse = Cursor.lockState == CursorLockMode.Locked;
         if(!IsOwner) return;
@@ -74,7 +74,7 @@ public class PlayerNetwork : NetworkBehaviour
 
         moveDir = Quaternion.AngleAxis(yRotation, Vector3.up) * moveDir;
 
-        Debug.Log($"yRotation: {yRotation}");
+        // Debug.Log($"yRotation: {yRotation}");
 
         if (moveDir == Vector3.zero)
             animator.SetBool("IsWalking", false);
