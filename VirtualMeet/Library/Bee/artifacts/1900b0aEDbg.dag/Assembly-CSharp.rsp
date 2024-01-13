@@ -409,6 +409,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ImportedAssets/CityPeopleLite/Demo_Scenes/Scripts/CityPeople.cs"
+"Assets/LightOnOff.cs"
 "Assets/Networking/AutoNetworkManager.cs"
 "Assets/Networking/ClientNetworkTransform.cs"
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
@@ -447,6 +448,7 @@
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs"
 "Assets/Photon/PhotonVoice/Demos/Fusion/DemoNetworkObject/PrefabSpawner.cs"
 "Assets/Player/PlayerNetwork.cs"
+"Assets/PlayerNextToChairDetection.cs"
 "Assets/VoiceNetworkingManager.cs"
 -langversion:9.0
 
