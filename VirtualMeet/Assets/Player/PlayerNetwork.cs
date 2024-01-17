@@ -23,7 +23,7 @@ public class PlayerNetwork : NetworkBehaviour
         Cursor.visible = false;
     }
     
-    void LateUpdate()
+    void FixedUpdate()
     {
         bool shouldMoveMouse = Cursor.lockState == CursorLockMode.Locked;
         if(!IsOwner) return;

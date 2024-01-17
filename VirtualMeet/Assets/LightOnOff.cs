@@ -12,7 +12,7 @@ public class LightOnOff : MonoBehaviour
         this._light = this.GetComponent<Light>();
     }
     
-    void LateUpdate()
+    void FixedUpdate()
     {
         Vector3 difference = new Vector3(
              this.transform.position.x - Camera.main.transform.position.x,
