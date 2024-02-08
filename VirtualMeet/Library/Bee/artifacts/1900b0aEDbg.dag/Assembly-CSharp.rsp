@@ -410,6 +410,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ImportedAssets/CityPeopleLite/Demo_Scenes/Scripts/CityPeople.cs"
 "Assets/LightOnOff.cs"
+"Assets/MenuLogic.cs"
 "Assets/Networking/AutoNetworkManager.cs"
 "Assets/Networking/ClientNetworkTransform.cs"
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
