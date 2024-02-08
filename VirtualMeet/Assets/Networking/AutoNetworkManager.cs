@@ -1,5 +1,6 @@
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.UI;
 using SystemInfo = UnityEngine.Device.SystemInfo;
 
 public class AutoNetworkManager : NetworkManager
